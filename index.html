@@ -5,31 +5,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="./src/output.css">
 </head>
 
-<body class="bg-black text-white">
+<body class="bg-black text-white my-3">
     <div class="mainContainer flex ">
         <div class="leftContainter w-[90%] font-bold flex flex-col items-end">
-            <ul class=" flex flex-col w-[50%] ">
-                <li class="flex ml-[3%] p-2"><svg viewBox="0 0 24 24" aria-hidden="true" class=" w-8 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-1nao33i r-rxcuwo r-1777fci r-m327ed r-494qqr"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg></li>
-                <li class="flex p-2 px-4 items-center my-0.5 gap-3 hover:bg-slate-400 rounded-full w-fit hover:cursor-pointer"><span class="material-symbols-outlined">home</span>Home</li>
-                <li class="flex p-2 px-4 items-center my-0.5 gap-3 hover:bg-slate-400 rounded-full w-fit hover:cursor-pointer"><span class="material-symbols-outlined">search</span>Explore</li>
-                <li class="flex p-2 px-4 items-center my-0.5 gap-3 hover:bg-slate-400 rounded-full w-fit hover:cursor-pointer"><span class="material-symbols-outlined">notifications</span>Notificsatons</li>
-                <li class="flex p-2 px-4 items-center my-0.5 gap-3 hover:bg-slate-400 rounded-full w-fit hover:cursor-pointer"><span class="material-symbols-outlined">mail</span>Messages</li>
-                <li class="flex p-2 px-4 items-center my-0.5 gap-3 hover:bg-slate-400 rounded-full w-fit hover:cursor-pointer"><span class="material-symbols-outlined">folder_off</span>Grok</li>
-                <li class="flex p-2 px-4 items-center my-0.5 gap-3 hover:bg-slate-400 rounded-full w-fit hover:cursor-pointer"><span class="material-symbols-outlined">article</span>Lists</li>
-                <li class="flex p-2 px-4 items-center my-0.5 gap-3 hover:bg-slate-400 rounded-full w-fit hover:cursor-pointer"><span class="material-symbols-outlined">bookmark</span>Boomarks</li>
-                <li class="flex p-2 px-4 items-center my-0.5 gap-3 hover:bg-slate-400 rounded-full w-fit hover:cursor-pointer"><span class="material-symbols-outlined">groups</span>Communities</li>
-                <li class="flex p-2 px-4 items-center my-0.5 gap-3 hover:bg-slate-400 rounded-full w-fit hover:cursor-pointer"><svg viewBox="0 0 24 24" aria-hidden="true" class=" w-6 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-1nao33i r-rxcuwo r-1777fci r-m327ed r-494qqr"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg>Premium</li>
-                <li class="flex p-2 px-4 items-center my-0.5 gap-3 hover:bg-slate-400 rounded-full w-fit hover:cursor-pointer"><span class="material-symbols-outlined">person</span>Profile</li>
-                <li class="flex p-2 px-4 items-center my-0.5 gap-3 hover:bg-slate-400 rounded-full w-fit hover:cursor-pointer"><span class="material-symbols-outlined">more</span>More</li>
-            </ul>
-            <button class=" w-[50%] p-2 items-center my-0.5 bg-blue-600 rounded-full">Post</button>
+            <div class="sidebar flex flex-col w-[50%]">
+                <ul class=" flex flex-col ">
+                    <li class="flex ml-[3%] p-2"><svg viewBox="0 0 24 24" aria-hidden="true"
+                            class=" w-8 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-1nao33i r-rxcuwo r-1777fci r-m327ed r-494qqr">
+                            <g>
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                                </path>
+                            </g>
+                        </svg></li>
+                    <li
+                        class="flex p-2 px-4 items-center my-0.5 gap-3 hover:bg-slate-400 rounded-full w-fit hover:cursor-pointer">
+                        <span class="material-symbols-outlined">home</span>Home
+                    </li>
+                    <li
+                        class="flex p-2 px-4 items-center my-0.5 gap-3 hover:bg-slate-400 rounded-full w-fit hover:cursor-pointer">
+                        <span class="material-symbols-outlined">search</span>Explore
+                    </li>
+                    <li
+                        class="flex p-2 px-4 items-center my-0.5 gap-3 hover:bg-slate-400 rounded-full w-fit hover:cursor-pointer">
+                        <span class="material-symbols-outlined">notifications</span>Notificsatons
+                    </li>
+                    <li
+                        class="flex p-2 px-4 items-center my-0.5 gap-3 hover:bg-slate-400 rounded-full w-fit hover:cursor-pointer">
+                        <span class="material-symbols-outlined">mail</span>Messages
+                    </li>
+                    <li
+                        class="flex p-2 px-4 items-center my-0.5 gap-3 hover:bg-slate-400 rounded-full w-fit hover:cursor-pointer">
+                        <span class="material-symbols-outlined">folder_off</span>Grok
+                    </li>
+                    <li
+                        class="flex p-2 px-4 items-center my-0.5 gap-3 hover:bg-slate-400 rounded-full w-fit hover:cursor-pointer">
+                        <span class="material-symbols-outlined">article</span>Lists
+                    </li>
+                    <li
+                        class="flex p-2 px-4 items-center my-0.5 gap-3 hover:bg-slate-400 rounded-full w-fit hover:cursor-pointer">
+                        <span class="material-symbols-outlined">bookmark</span>Boomarks
+                    </li>
+                    <li
+                        class="flex p-2 px-4 items-center my-0.5 gap-3 hover:bg-slate-400 rounded-full w-fit hover:cursor-pointer">
+                        <span class="material-symbols-outlined">groups</span>Communities
+                    </li>
+                    <li
+                        class="flex p-2 px-4 items-center my-0.5 gap-3 hover:bg-slate-400 rounded-full w-fit hover:cursor-pointer">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"
+                            class=" w-6 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-1nao33i r-rxcuwo r-1777fci r-m327ed r-494qqr">
+                            <g>
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                                </path>
+                            </g>
+                        </svg>Premium
+                    </li>
+                    <li
+                        class="flex p-2 px-4 items-center my-0.5 gap-3 hover:bg-slate-400 rounded-full w-fit hover:cursor-pointer">
+                        <span class="material-symbols-outlined">person</span>Profile
+                    </li>
+                    <li
+                        class="flex p-2 px-4 items-center my-0.5 gap-3 hover:bg-slate-400 rounded-full w-fit hover:cursor-pointer">
+                        <span class="material-symbols-outlined">more</span>More
+                    </li>
+                </ul>
+                <button class=" w-[80%] p-2 items-center my-2 mx-3 bg-blue-600 rounded-full">Post</button>
+            </div>
+
         </div>
-        <div class="middleContainer w-full border border-gray-700">Middle Container</div>
-        <div class="rightContainer w-full">Right Container</div>
+        <div class="middleContainer w-full border border-x-gray-600 border-y-black">Middle Container</div>
+        <div class="rightContainer w-full ">
+            <div class="rightContainerElement w-2/4 mx-3 flex flex-col gap-2">
+                <div class="search flex  bg-gray-800 gap-3  p-2 px-4 rounded-full text-gray-500">
+                    <span class="material-symbols-outlined">search</span>Search
+                </div>
+                <div class="happening"></div>
+                <div class="follow"></div>
+                <div class="footer text-xs max-h-10 text-gray-500 flex flex-row flex-wrap gap-1">
+
+                    <span class="hover:underline cursor-pointer mr-2">Terms of Service</span>
+                    <span class="hover:underline cursor-pointer mr-2">Privacy Policy</span>
+                    <span class="hover:underline cursor-pointer mr-2">Cookie Policy</span>
+                    <span class="hover:underline cursor-pointer mr-2">Accessibility</span>
+                    <span class="hover:underline cursor-pointer mr-2">Ads info</span>
+                    <span class="hover:underline cursor-pointer mr-2">More</span>
+                    <span class="hover:underline cursor-pointer mr-2">© 2024 X Corp.</span>
+
+                </div>
+            </div>
+
+        </div>
     </div>
 
 </body>
