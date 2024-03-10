@@ -4,7 +4,8 @@
   "description": "This repository contains a Twitter UI Clone project built using Tailwind CSS. Tailwind CSS is a utility-first CSS framework that allows for rapid development and easy customization. The project aims to replicate the visual elements and user interface of Twitter, providing a practical example of utilizing Tailwind CSS in a real-world application.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
   },
   "keywords": [],
   "author": "",
