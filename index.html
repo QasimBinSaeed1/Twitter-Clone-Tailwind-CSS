@@ -75,21 +75,56 @@
                         <span class="material-symbols-outlined">more</span>More
                     </li>
                 </ul>
-                <button class=" w-[80%] p-2 items-center my-2 mx-3 bg-blue-600 rounded-full">Post</button>
+                <button class=" w-[80%] p-2 items-center my-2 mx-3 bg-[#1D9BEE] rounded-full">Post</button>
             </div>
 
         </div>
-        <div class="middleContainer w-full border border-x-gray-600 border-y-black">Middle Container</div>
+        <div class="middleContainer w-full border border-x-gray-600 border-y-black space-y-1">
+            <div class="middleContainerTop relative">
+                <div class="flex items-center  text-lg">
+                    <p class="w-[47%] px-[80px] font-bold">For You</p>
+                    <p class="w-[47%] px-[80px] text-gray-500">Following</p>
+                    <span class="material-symbols-outlined p-2">settings</span>
+                </div>
+                <div class="border-[2px] border-[#1D9BEE] w-[65px] rounded-lg absolute z-10 left-[80px] "></div>
+            </div>
+            <hr class="border-gray-600 ">
+            <div class="middleContainerPost p-2 flex items-start ">
+                <img class="w-10 rounded-full ml-1 mt-2" src="follow-img\IMG-White.png" alt="">
+                <div class="flex flex-col px-2 w-[100%] space-y-1">
+                    <input class="bg-transparent outline-none text-gray-500 p-2" type="text" placeholder="What is happening?!">
+                    <div class="flex  items-center text-[#1D9BEE] text-sm gap-1 p-1">
+                        <span class="material-symbols-outlined text-sm">public</span>
+                        <p>Everyone can reply</p>
+                    </div>
+                    <hr class="border-gray-600 border-[0.5]">
+                    <div class="flex justify-between items-center p-1">
+                        <div class="flex justify-between items-center text-[#1D9BEE] text-xs gap-3 ">
+                            <span class="material-symbols-outlined text-sm hover:cursor-pointer">image</span>
+                            <span class="material-symbols-outlined text-sm hover:cursor-pointer">gif_box</span>
+                            <span class="material-symbols-outlined text-sm hover:cursor-pointer">list</span>
+                            <span class="material-symbols-outlined text-sm hover:cursor-pointer">sentiment_satisfied</span>
+                            <span class="material-symbols-outlined text-sm hover:cursor-pointer">event_repeat</span>
+                            <span class="material-symbols-outlined text-sm hover:cursor-pointer">location_on</span>
+                        </div>
+                        <button class=" w-[17%] p-0.5 items-center bg-[#1D9BEE] rounded-full font-bold">Post</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-gray-600 border-[0.5]">
+            <div class="middleContainerFeed"></div>
+        </div>
         <div class="rightContainer w-full ">
             <div class="rightContainerElement w-2/4 mx-3 flex flex-col gap-2">
-                <div class="search flex  bg-gray-800 gap-3  p-2 px-4 rounded-full text-gray-500">
+                <div class="search flex  bg-[#16171D] gap-3  p-2 px-4 rounded-full text-gray-500">
                     <span class="material-symbols-outlined">search</span>
                     <input class="bg-transparent focus:outline-none" type="text" placeholder="Search">
                 </div>
-                <div class="whatsHappening bg-gray-800 space-y-1 p-2 px-2 rounded-[10px]">
+                <div class="whatsHappening bg-[#16171D] space-y-1 p-2 px-2 rounded-[10px]">
                     <h2 class="font-bold py-1 px-2">What's happening</h2>
                     <div class="happeningCard py-1 px-2 hover:bg-gray-600 hover:rounded-lg hover:cursor-pointer">
-                        <div class="happeningCardTop  text-gray-500 text-xs font-bold flex items-center justify-between">
+                        <div
+                            class="happeningCardTop  text-gray-500 text-xs font-bold flex items-center justify-between">
                             <div>Trending in Pakistan</div>
                             <span class="material-symbols-outlined">more_horiz</span>
                         </div>
@@ -97,7 +132,8 @@
                         <div class="happeningCardBottom text-gray-500 text-xs font-bold">2.1M posts</div>
                     </div>
                     <div class="happeningCard py-1 px-2 hover:bg-gray-600 hover:rounded-lg hover:cursor-pointer">
-                        <div class="happeningCardTop  text-gray-500 text-xs font-bold flex items-center justify-between">
+                        <div
+                            class="happeningCardTop  text-gray-500 text-xs font-bold flex items-center justify-between">
                             <div>Entertainment &middot; Trending</div>
                             <span class="material-symbols-outlined">more_horiz</span>
                         </div>
@@ -105,7 +141,8 @@
                         <div class="happeningCardBottom text-gray-500 text-xs font-bold">21.6K posts</div>
                     </div>
                     <div class="happeningCard py-1 px-2 hover:bg-gray-600 hover:rounded-lg hover:cursor-pointer">
-                        <div class="happeningCardTop  text-gray-500 text-xs font-bold flex items-center justify-between">
+                        <div
+                            class="happeningCardTop  text-gray-500 text-xs font-bold flex items-center justify-between">
                             <div>Politics &middot; Trending</div>
                             <span class="material-symbols-outlined">more_horiz</span>
                         </div>
@@ -113,9 +150,10 @@
                         <div class="happeningCardBottom text-gray-500 text-xs font-bold">133K posts</div>
                     </div>
                 </div>
-                <div class="follow bg-gray-800 space-y-1 p-2 px-2 rounded-[10px]">
+                <div class="follow bg-[#16171D] space-y-1 p-2 px-2 rounded-[10px]">
                     <h2 class="font-bold py-1 px-2">Who to follow</h2>
-                    <div class="followCard py-1 px-2 flex justify-between items-center gap-1 hover:bg-gray-600 hover:rounded-lg hover:cursor-pointer">
+                    <div
+                        class="followCard py-1 px-2 flex justify-between items-center gap-1 hover:bg-gray-600 hover:rounded-lg hover:cursor-pointer">
                         <img class="w-10 rounded-full" src="follow-img\IMG-White.png" alt="">
                         <div class="w-2/4">
                             <p class="font-bold text-xs">Qasim Bin Saeed</p>
@@ -123,7 +161,8 @@
                         </div>
                         <button class="w-16 bg-white text-black p-1 rounded-full font-bold text-xs">Follow</button>
                     </div>
-                    <div class="followCard py-1 px-2 flex justify-between items-center gap-1 hover:bg-gray-600 hover:rounded-lg hover:cursor-pointer">
+                    <div
+                        class="followCard py-1 px-2 flex justify-between items-center gap-1 hover:bg-gray-600 hover:rounded-lg hover:cursor-pointer">
                         <img class="w-10 rounded-full" src="follow-img\IMG-White.png" alt="">
                         <div class="w-2/4">
                             <p class="font-bold text-xs">Qasim Bin Saeed</p>
@@ -131,7 +170,8 @@
                         </div>
                         <button class="w-16 bg-white text-black p-1 rounded-full font-bold text-xs">Follow</button>
                     </div>
-                    <div class="followCard py-1 px-2 flex justify-between items-center gap-1 hover:bg-gray-600 hover:rounded-lg hover:cursor-pointer">
+                    <div
+                        class="followCard py-1 px-2 flex justify-between items-center gap-1 hover:bg-gray-600 hover:rounded-lg hover:cursor-pointer">
                         <img class="w-10 rounded-full" src="follow-img\IMG-White.png" alt="">
                         <div class="w-2/4">
                             <p class="font-bold text-xs">Qasim Bin Saeed</p>
