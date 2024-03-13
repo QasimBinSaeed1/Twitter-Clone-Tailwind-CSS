@@ -552,8 +552,8 @@ video {
   position: sticky;
 }
 
-.left-\[80px\] {
-  left: 80px;
+.left-\[45px\] {
+  left: 45px;
 }
 
 .top-0 {
@@ -566,6 +566,10 @@ video {
 
 .top-\[67vh\] {
   top: 67vh;
+}
+
+.left-\[80px\] {
+  left: 80px;
 }
 
 .z-10 {
@@ -611,21 +615,6 @@ video {
   margin-bottom: 1rem;
 }
 
-.my-\[50px\] {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
 .ml-0 {
   margin-left: 0px;
 }
@@ -642,12 +631,12 @@ video {
   margin-right: 0.5rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .flex {
@@ -678,8 +667,8 @@ video {
   width: 50%;
 }
 
-.w-3\/4 {
-  width: 75%;
+.w-3\/5 {
+  width: 60%;
 }
 
 .w-6 {
@@ -702,10 +691,6 @@ video {
   width: 17%;
 }
 
-.w-\[45\%\] {
-  width: 45%;
-}
-
 .w-\[47\%\] {
   width: 47%;
 }
@@ -725,14 +710,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-12 {
-  width: 3rem;
-}
-
-.w-3\/5 {
-  width: 60%;
 }
 
 .cursor-pointer {
@@ -787,12 +764,6 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
-}
-
-.space-y-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
 .rounded-\[10px\] {
@@ -865,11 +836,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-gray-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
-}
-
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
@@ -905,14 +871,22 @@ video {
   padding-right: 1rem;
 }
 
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .px-\[80px\] {
   padding-left: 80px;
   padding-right: 80px;
 }
 
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+.pl-\[35px\] {
+  padding-left: 35px;
+}
+
+.pl-\[45px\] {
+  padding-left: 45px;
 }
 
 .text-lg {
@@ -973,18 +947,6 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.hover\:cursor-pointer:hover {
-  cursor: pointer;
-}
-
-.hover\:rounded-full:hover {
-  border-radius: 9999px;
-}
-
-.hover\:rounded-lg:hover {
-  border-radius: 0.5rem;
-}
-
 .hover\:bg-gray-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(75 85 99 / var(--tw-bg-opacity));
@@ -1024,7 +986,25 @@ video {
   outline-offset: 2px;
 }
 
+@media (min-width: 640px) {
+  .sm\:left-\[85px\] {
+    left: 85px;
+  }
+
+  .sm\:pl-\[65px\] {
+    padding-left: 65px;
+  }
+
+  .sm\:pl-\[85px\] {
+    padding-left: 85px;
+  }
+}
+
 @media (min-width: 768px) {
+  .md\:left-\[35px\] {
+    left: 35px;
+  }
+
   .md\:mr-4 {
     margin-right: 1rem;
   }
@@ -1037,42 +1017,66 @@ video {
     display: none;
   }
 
-  .md\:w-\[45\%\] {
-    width: 45%;
+  .md\:w-\[190\%\] {
+    width: 190%;
+  }
+
+  .md\:w-\[31\%\] {
+    width: 31%;
+  }
+
+  .md\:w-\[75\%\] {
+    width: 75%;
   }
 
   .md\:w-\[90\%\] {
     width: 90%;
   }
 
-  .md\:w-\[50\%\] {
-    width: 50%;
+  .md\:w-\[10\%\] {
+    width: 10%;
   }
 
   .md\:w-\[70\%\] {
     width: 70%;
   }
 
+  .md\:w-\[85\%\] {
+    width: 85%;
+  }
+
   .md\:w-\[80\%\] {
     width: 80%;
+  }
+
+  .md\:w-\[120\%\] {
+    width: 120%;
+  }
+
+  .md\:w-\[32\%\] {
+    width: 32%;
+  }
+
+  .md\:w-\[28\%\] {
+    width: 28%;
+  }
+
+  .md\:pl-\[35px\] {
+    padding-left: 35px;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:block {
-    display: block;
+  .lg\:left-\[55px\] {
+    left: 55px;
   }
 
-  .lg\:w-\[50\%\] {
-    width: 50%;
+  .lg\:w-\[100\%\] {
+    width: 100%;
   }
 
-  .lg\:w-\[45\%\] {
-    width: 45%;
-  }
-
-  .lg\:w-\[70\%\] {
-    width: 70%;
+  .lg\:w-\[55\%\] {
+    width: 55%;
   }
 
   .lg\:w-\[60\%\] {
@@ -1083,17 +1087,29 @@ video {
     width: 65%;
   }
 
-  .lg\:w-\[55\%\] {
-    width: 55%;
-  }
-
-  .lg\:w-\[57\%\] {
-    width: 57%;
+  .lg\:pl-\[55px\] {
+    padding-left: 55px;
   }
 }
 
 @media (min-width: 1280px) {
+  .xl\:left-\[80px\] {
+    left: 80px;
+  }
+
+  .xl\:w-\[100\%\] {
+    width: 100%;
+  }
+
+  .xl\:w-\[50\%\] {
+    width: 50%;
+  }
+
   .xl\:w-\[55\%\] {
     width: 55%;
+  }
+
+  .xl\:pl-\[80px\] {
+    padding-left: 80px;
   }
 }
